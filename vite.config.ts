@@ -1,23 +1,25 @@
 import path from 'path';
 import {defineConfig} from 'vite';
 
+const rootDir = typeof import.meta.dirname !== 'undefined' ? import.meta.dirname : path.resolve();
+
 export default defineConfig(() => {
   return {
     build: {
       rollupOptions: {
         input: {
-          main: path.resolve(__dirname, 'index.html'),
-          sobre: path.resolve(__dirname, 'sobre.html'),
-          ensino: path.resolve(__dirname, 'ensino.html'),
-          cursos: path.resolve(__dirname, 'cursos.html'),
-          matriculas: path.resolve(__dirname, 'matriculas.html'),
-          contactos: path.resolve(__dirname, 'contactos.html'),
+          main: path.resolve(rootDir, 'index.html'),
+          sobre: path.resolve(rootDir, 'sobre.html'),
+          ensino: path.resolve(rootDir, 'ensino.html'),
+          cursos: path.resolve(rootDir, 'cursos.html'),
+          matriculas: path.resolve(rootDir, 'matriculas.html'),
+          contactos: path.resolve(rootDir, 'contactos.html'),
         },
       },
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': rootDir,
       },
     },
     server: {
