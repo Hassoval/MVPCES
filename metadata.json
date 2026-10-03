@@ -1,0 +1,6 @@
+{
+  "name": "Complexo Escolar Sanjukila",
+  "description": "Website institucional do Complexo Escolar Sanjukila em Zango III, Luanda, Angola. Rigor, Qualidade e Inovação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

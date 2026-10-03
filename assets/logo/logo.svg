@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123B70" />
+      <stop offset="100%" stop-color="#1E63A8" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="10" width="60" height="60" rx="12" fill="url(#grad)" />
+  <path d="M18 40 L32 26 L46 40 L32 54 Z" fill="none" stroke="#F4B942" stroke-width="3" stroke-linejoin="round" />
+  <text x="32" y="45" font-family="Arial, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" text-anchor="middle">CES</text>
+  <text x="76" y="38" font-family="Arial, sans-serif" font-weight="800" font-size="22" letter-spacing="1" fill="#123B70">SANJUKILA</text>
+  <text x="76" y="55" font-family="Arial, sans-serif" font-weight="600" font-size="10.5" letter-spacing="2" fill="#64748B">COMPLEXO ESCOLAR</text>
+</svg>
